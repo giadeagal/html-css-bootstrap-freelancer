@@ -14,10 +14,13 @@
     text-align: center;
 }
 
+#avatar {
+    max-width: 200px;
+}
+
 .starline i {
     display: inline-block;
     vertical-align: middle;
-    color: white;
     font-size: 2rem;
 }
 
@@ -28,7 +31,6 @@
     width: 100px;
     height: 5px;
     border-radius: 20px;
-    background-color: white;
 }
 
 .starline::before {
@@ -37,4 +39,19 @@
 
 .starline::after {
     margin-left: 10px;
+}
+
+#start .starline::before,
+#start .starline::after {
+    background-color: white;
+}
+
+#portfolio .starline::before,
+#portfolio .starline::after {
+    background-color: black;
+}
+
+#portfolio img {
+    width: 100%;
+    border-radius: 20px;
 }
