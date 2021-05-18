@@ -12,6 +12,7 @@
 
 #start {
     text-align: center;
+    color:white;
 }
 
 #avatar {
@@ -28,7 +29,7 @@
 .starline::after {
     display: inline-block;
     content:'';
-    width: 50px;
+    width: 30px;
     height: 5px;
     border-radius: 20px;
 }
@@ -64,6 +65,10 @@
     width: 80%;
 }
 
+#about {
+    color: white;
+}
+
 #about .btn {
     border: 1px solid white;
     color: white;
@@ -87,10 +92,13 @@
 
 #contact_me form input[type="button"] {
     color: white;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #footer_top {
     height: 20rem;
+    color: #fff;
 }
 
 @media (min-width: 576px) {
