@@ -9,3 +9,32 @@
 .bg_blue {
     background-color: #3a546d;
 }
+
+#start {
+    text-align: center;
+}
+
+.starline i {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-size: 2rem;
+}
+
+.starline::before,
+.starline::after {
+    display: inline-block;
+    content:'';
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.starline::before {
+    margin-right: 10px;
+}
+
+.starline::after {
+    margin-left: 10px;
+}
