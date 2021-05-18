@@ -14,7 +14,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
     <!-- Foglio di stile personalizzato -->
-    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Responsive -->
     <link rel="stylesheet" href="css/respo.css">
 </head>
@@ -58,29 +58,29 @@
 
     <!-- Inizio sezione "Portfolio" -->
     <section id="portfolio">
-        <h2 class="text-uppercase">Portfolio</h2>
-        <div class="starline">
+        <h2 class="text-uppercase fw-bold text-center">Portfolio</h2>
+        <div class="starline text-center">
             <i class="bi bi-star-fill"></i>
         </div>
         <div class="container">
-            <div class="row g-5">
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 d-flex justify-content-around">
+            <div class="row gy-5 g-sm-5">
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-2 d-flex justify-content-center">
                     <img src="img/cabin.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 d-flex justify-content-around">
-                    <img src="img/cabin.png" alt="">
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-2 d-flex justify-content-center">
+                    <img src="img/cake.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 d-flex justify-content-around">
-                    <img src="img/cabin.png" alt="">
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-2 d-flex justify-content-center">
+                    <img src="img/circus.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 d-flex justify-content-around">
-                    <img src="img/cabin.png" alt="">
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-2 d-flex justify-content-center">
+                    <img src="img/game.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 d-flex justify-content-around">
-                    <img src="img/cabin.png" alt="">
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-2 d-flex justify-content-center">
+                    <img src="img/safe.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 d-flex justify-content-around">
-                    <img src="img/cabin.png" alt="">
+                <div class="col-12 col-md-6 col-lg-4 col-xxl-2 d-flex justify-content-center">
+                    <img src="img/submarine.png" alt="">
                 </div>                
             </div>
         </div>
@@ -88,17 +88,86 @@
     <!-- Fine sezione "Portfolio" -->
 
     <!-- Inizio sezione "about" -->
-    <section id="about"></section>
+    <section class="bg_green" id="about">
+        <div class="container">
+            <h2 class="text-uppercase fw-bold text-center">about</h2>
+            <div class="starline text-center">
+                <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quibusdam totam explicabo doloribus ad, ipsum natus minima? Quis cumque illum, hic commodi assumenda reiciendis ab odit aliquam a ipsam provident voluptatum harum recusandae perspiciatis nobis non fugiat in ex delectus. Consectetur suscipit itaque ipsam nemo beatae dolores facilis harum dignissimos!</p>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quibusdam totam explicabo doloribus ad, ipsum natus minima? Quis cumque illum, hic commodi assumenda reiciendis ab odit aliquam a ipsam provident voluptatum harum recusandae perspiciatis nobis non fugiat in ex delectus. Consectetur suscipit itaque ipsam nemo beatae dolores facilis harum dignissimos!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="btn"><i class="fas fa-download"></i>pusha</div>
+            </div>
+        </div>
+    </section>
     <!-- Fine sezione "about" -->
 
     <!-- Inizio sezione "Contact me" -->
-    <section id="Contact_me"></section>
+    <section id="contact_me">
+        <h2 class="text-uppercase fw-bold text-center">Contact me</h2>
+        <div class="starline text-center">
+            <i class="bi bi-star-fill"></i>
+        </div>
+        <div class="container">
+            <form action="#">
+                <div class="mb-3">
+                    <label for="form-name" class="form-label">Name</label>
+                    <input type="email" class="form-control" id="form-name">
+                </div>
+                <div class="mb-3">
+                   <label for="form-mail" class="form-label">Email address</label>
+                   <input type="email" class="form-control" id="form-mail">
+                </div>
+                <div class="mb-3">
+                    <label for="form-phone" class="form-label">Phone number</label>
+                    <input type="email" class="form-control" id="form-phone">
+                </div>
+                <div class="mb-3">
+                   <label for="form-msg" class="form-label">Message</label>
+                   <textarea class="form-control" id="form-msg" rows="3"></textarea>
+                </div>
+                <input class="btn bg_green" type="button" value="Send">
+            </form>
+        </div>
+    </section>
     <!-- Fine sezione "Contact me" -->
 
     <!-- Inizio footer -->
     <footer>
-        <section id="footer_top"></section>
-        <section id="footer_bottom"></section>
+        <section class="bg_blue" id="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4">
+                        <h4>location</h4>
+                        <p>via esempio viale piazza</p>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <h4>location</h4>
+                        <p>via esempio viale piazza</p>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <h4>location</h4>
+                        <p>via esempio viale piazza</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg_darkblue" id="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">Pippo</div>
+                </div>
+            </div>
+        </section>
     </footer>
     <!-- Fine footer -->
 
