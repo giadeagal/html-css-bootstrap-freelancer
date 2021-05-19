@@ -62,25 +62,28 @@
 }
 
 .container {
-    width: 80%;
+    width: 90%;
 }
 
 #about {
     color: white;
 }
 
+#about p {
+    width: 80%;
+    margin: 0 10%;
+}
+
 #about .btn {
     border: 1px solid white;
     color: white;
+    justify-self: center;
 }
 
 #about .btn>i {
     margin-right: 10px;
 }
 
-#contact_me form {
-    max-width: 500px;
-}
 
 #contact_me form input:not([type="button"]),
 #contact_me form textarea {
@@ -96,7 +99,13 @@
     transform: translateX(-50%);
 }
 
-#footer_top {
+.box {
+    min-height: 20px;
+    background-color: red;
+}
+
+/* #footer_top {
+    width: 100%;
     height: 20rem;
     color: #fff;
 }
@@ -105,8 +114,8 @@
     #footer_top {
         height: 10rem;
     }
-}
+}   
 
 #footer_bottom {
     height: 5rem;
-}
+} */
